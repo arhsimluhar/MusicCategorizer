@@ -1,0 +1,37 @@
+**************************************************************************
+No of songs:  59600
+**************************************************************************
+Dataset composition:
+jazz and blues 2000
+classic pop and rock 2000
+classical 1874
+punk 2000
+metal 2000
+pop 2050
+dance and electronica 2000
+hip-hop 1
+soul and reggae 2000
+folk 2000
+**************************************************************************
+Loading data in numpy arrays.
+Time elapsed: 0.376798868179 secs.
+Splitting data into target and features
+Time elapsed: 0.487365961075 secs.
+Creating training set and Test set
+Time elapsed: 0.0115170478821 secs.
+Fitting and predicting the data
+confusion_matrix:
+             precision    recall  f1-score   support
+
+classic pop and rock       0.37      0.33      0.35       387
+  classical       0.74      0.78      0.76       362
+dance and electronica       0.57      0.54      0.56       422
+       folk       0.44      0.50      0.46       403
+jazz and blues       0.51      0.47      0.49       390
+      metal       0.77      0.79      0.78       431
+        pop       0.42      0.47      0.45       390
+       punk       0.64      0.54      0.58       414
+soul and reggae       0.49      0.53      0.51       384
+
+avg / total       0.55      0.55      0.55      3583
+

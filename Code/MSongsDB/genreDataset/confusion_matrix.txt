@@ -1,0 +1,78 @@
+confusion_matrix:
+                           		precision    recall  f1-score   support	
+
+classic pop and rock      		 0.55      0.80      0.66      4742
+  classical      				 0.81      0.65      0.72       392
+dance and electronica   	     0.56      0.44      0.49       991
+       folk       				 0.60      0.57      0.58      2666
+    hip-hop       				 0.25      0.01      0.02        82
+jazz and blues       			 0.67      0.32      0.44       856
+      metal       				 0.75      0.58      0.65       409
+        pop       				 0.23      0.01      0.03       340
+       punk       				 0.65      0.32      0.43       644
+soul and reggae       			 0.51      0.23      0.31       798
+
+                          Redistributing dataset(OnevsRestClassifier)
+
+
+							     precision    recall  f1-score   support
+
+classic pop and rock       		 0.38      0.31      0.34       387
+  classical      				 0.74      0.80      0.77       362
+dance and electronica       	 0.55      0.54      0.55       422
+       folk   				     0.48      0.53      0.50       403
+jazz and blues       			 0.55      0.51      0.53       390
+      metal    				     0.78      0.79      0.79       431
+        pop       				 0.40      0.47      0.43       390
+       punk                      0.64      0.54      0.58       414
+soul and reggae                  0.46      0.49      0.47       384
+   avg / total                   0.55      0.55      0.55      3583
+
+
+
+   						produced by optimal value of min_split_samples=30
+confusion_matrix:                 
+					             precision    recall  f1-score   support
+
+classic pop and rock		       0.40      0.35      0.38       387
+  classical       				   0.73      0.78      0.75       362
+dance and electronica       	   0.57      0.55      0.56       422
+       folk       				   0.49      0.54      0.51       403
+jazz and blues       			   0.53      0.52      0.52       390
+      metal       				   0.80      0.79      0.79       431
+        pop       				   0.40      0.46      0.43       390
+       punk       				   0.67      0.53      0.59       414
+soul and reggae       			   0.46      0.50      0.48       384
+avg / total       				   0.56      0.56      0.56      3583
+
+
+					After Bayesian Optimization
+confusion_matrix:
+					             precision    recall  f1-score   support
+
+classic pop and rock  		       0.46      0.41      0.43       387
+  classical                        0.77      0.84      0.80       362
+dance and electronica              0.63      0.62      0.62       422
+       folk                        0.54      0.60      0.57       403
+jazz and blues                     0.61      0.57      0.59       390
+      metal                        0.82      0.81      0.81       431
+        pop                        0.47      0.54      0.50       390
+       punk                        0.70      0.59      0.64       414
+soul and reggae                    0.54      0.57      0.56       384
+avg / total                        0.62      0.62      0.62      3583
+
+
+confusion_matrix:
+                       precision    recall  f1-score   support
+
+classic pop and rock       0.56      0.85      0.67      4742
+  classical                0.78      0.72      0.75       398
+dance and electronica      0.63      0.42      0.50       951
+       folk                0.67      0.59      0.63      2674
+    hip-hop                0.78      0.08      0.15        85
+jazz and blues             0.72      0.35      0.47       852
+      metal                0.80      0.58      0.67       424
+        pop                0.52      0.04      0.07       337
+       punk                0.75      0.34      0.47       615
+soul and reggae            0.68      0.26      0.37       840
+avg / total                0.64      0.61      0.58     11918
